@@ -1,0 +1,24 @@
+{
+  "name": "crypto-chat",
+  "module": "index.ts",
+  "scripts": {
+  "dev": "bun --hot src/index.ts",
+  "build": "bun build ./src/index.ts --outdir ./dist",
+  "start": "bun ./dist/index.js"
+},
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
