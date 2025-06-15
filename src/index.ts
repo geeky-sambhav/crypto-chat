@@ -4,7 +4,12 @@ import { get_current_price } from './services/crypto.service';
 import { handleChat } from './controllers/chat.controller';
 import cors from 'cors';
 const app = express();
-import { Buffer } from 'node:buffer';
+import { Buffer } from 'buffer';
+
+// Make it globally available
+declare global {
+  var Buffer: typeof Buffer;
+}
 globalThis.Buffer = Buffer;
 
 const port = process.env.PORT ;
