@@ -4,8 +4,10 @@ import { get_current_price } from './services/crypto.service';
 import { handleChat } from './controllers/chat.controller';
 import cors from 'cors';
 const app = express();
-const port = 8000;
+import { Buffer } from 'node:buffer';
+globalThis.Buffer = Buffer;
 
+const port = process.env.PORT ;
 app.use(express.json());
 app.use(cors()); // <--- 2. THIS IS THE MOST IMPORTANT LINE. It must be here.
 
