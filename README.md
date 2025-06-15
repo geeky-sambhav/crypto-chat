@@ -36,8 +36,8 @@ You must have [Bun](https://bun.sh/) installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/geeky-sambhav/crypto-chat.git](https://github.com/geeky-sambhav/crypto-chat.git)
+    cd crypto-chat
     ```
 
 2.  **Install dependencies:**
@@ -59,7 +59,7 @@ You must have [Bun](https://bun.sh/) installed on your system.
     ```bash
     bun run dev
     ```
-    The server will be available at `http://localhost:3000`.
+    The server will be available at `http://localhost:8000`.
 
 -   **Production Mode:**
     To build an optimized version of the application:
