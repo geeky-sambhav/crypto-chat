@@ -46,10 +46,9 @@ You must have [Bun](https://bun.sh/) installed on your system.
     ```
 
 3.  **Set up environment variables:**
-    Create a `.env` file in the root directory by copying the example file:
-    ```bash
-    cp .env.example .env
-    ```
+    Create a `.env` file in the root directory
+    
+
     Now, open the `.env` file and add your actual API keys from Google AI Studio and CoinGecko.
 
 ### Running the Application
